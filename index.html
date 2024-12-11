@@ -7,26 +7,23 @@
   <link rel="stylesheet" href="static/css/font-awesome.min.css">
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
+    <div id="player" class="player-container">
+        <div class="js-video-container"></div>
+        <div class="controls">
+            <button class="js-play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button class="js-pause-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
+            <button class="js-volume-button">Volume</button>
+            <button class="js-mute-button" hidden>Mute</button>
+            <button class="js-fullscreen-button">Fullscreen</button>
+        </div>
+        <div class="time-display">
+            <span class="js-current-time"></span> — <span class="js-duration"></span>
+        </div>
 
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
-    <div style="background-color:black;">
-      <button class="js-play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
-      <button class="js-pause-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
-      <button class="js-volume-button">Volume</button>
-      <button class="js-mute-button" hidden>Mute</button>
-      <button class="js-fullscreen-button">Fullscreen</button>
+        <div class="js-progress">
+            <div class="js-progress-slider">Прогресс</div>
+        </div>
     </div>
-    <div style="color: white;">
-      <span class="js-current-time"></span>
-      —
-      <span class="js-duration"></span>
-    </div>
-
-    <div class="js-progress" style="background-color: grey;">
-      <div class="js-progress-slider" style="background-color: red;">Прогресс</div>
-    </div>
-  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>

@@ -1,3 +1,18 @@
+.player-container {
+    width: 800px;
+    height: 600px;
+    background-color: black;
+}
+
+.js-video-container {
+    width: 100%;
+    height: 100%;
+}
+
+.controls {
+    background-color: black;
+}
+
 button {
     width: 30px;
     height: 30px;
@@ -6,4 +21,17 @@ button {
     border: none;
     cursor: pointer;
     margin: auto;
+}
+
+.time-display {
+    color: white;
+}
+
+.js-progress {
+    width: 100%;
+    background-color: grey;
+}
+
+.js-progress-slider {
+    background-color: red;
 }
