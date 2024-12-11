@@ -1,6 +1,9 @@
 button {
+    width: 30px;
+    height: 30px;
     background: black;
     color: white;
     border: none;
     cursor: pointer;
+    margin: auto;
 }
