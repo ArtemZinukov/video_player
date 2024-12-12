@@ -13,6 +13,8 @@
 
 .controls {
     background-color: black;
+    display: flex;
+    align-items: center;
 }
 
 button {
@@ -22,8 +24,12 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    margin: auto;
+    margin-right: 10px;
     font-size: 12pt
+}
+
+.spacer {
+    flex-grow: 1;
 }
 
 .time-display {
