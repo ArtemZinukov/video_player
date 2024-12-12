@@ -23,6 +23,7 @@ button {
     border: none;
     cursor: pointer;
     margin: auto;
+    font-size: 12pt
 }
 
 .time-display {
