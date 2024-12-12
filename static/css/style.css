@@ -32,15 +32,3 @@ button {
     flex-grow: 1;
 }
 
-.time-display {
-    color: white;
-}
-
-.js-progress {
-    width: 100%;
-    background-color: grey;
-}
-
-.js-progress-slider {
-    background-color: red;
-}
