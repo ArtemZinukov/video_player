@@ -7,17 +7,13 @@
     flex-direction: column;
 }
 
-.js-video-container {
-    flex: 1;
-}
-
 .controls {
     background-color: black;
     display: flex;
     align-items: center;
 }
 
-button {
+.video-button{
     width: 30px;
     height: 30px;
     background: black;
