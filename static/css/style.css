@@ -28,3 +28,6 @@
     flex-grow: 1;
 }
 
+.video-container-style {
+    flex: 1;
+}
