@@ -22,7 +22,7 @@
     cursor: pointer;
     margin-right: 8px;
     margin-bottom: 15px;
-    padding: 9px;
+    padding: 10px;
     font-size: 14pt;
 }
 
@@ -32,4 +32,28 @@
 
 .video-container-style {
     flex: 1;
+}
+
+.roboto-400 {
+  font-family: "Roboto", serif;
+  color: white;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.progress-style {
+    background-color: black;
+    height: 20px;
+    margin-left: 11px;
+    margin-right: 12px;
+    flex-grow: 1;
+    width: 555px;
+    display: flex;
+}
+.control-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
