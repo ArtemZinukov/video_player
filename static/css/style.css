@@ -14,14 +14,16 @@
 }
 
 .video-button{
-    width: 30px;
+    width: 29px;
     height: 30px;
     background: black;
     color: white;
     border: none;
     cursor: pointer;
-    margin-right: 10px;
-    font-size: 12pt
+    margin-right: 8px;
+    margin-bottom: 15px;
+    padding: 9px;
+    font-size: 14pt;
 }
 
 .spacer {
