@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <title>Пример подключения плеера</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пример подключения плеера</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="icon" type="image/png" href="static/favicon.png">
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
@@ -12,24 +13,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="player" class="player-container">
-        <div class="js-video-container video-container-style"></div>
-        <div class="controls">
-            <button class="js-play-button video-button"><i class="fa fa-play" aria-hidden="true"></i></button>
-            <button class="js-pause-button video-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
-            <button class="js-volume-button video-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
-            <button class="js-mute-button video-button"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-            <div class="control-container">
-              <span class="js-current-time roboto-400"></span>
-              <div class="js-progress progress-style ">
-                  <div class="js-progress-slider progress-slider-style"></div>
-                  <span class="progress-dot"></span>
-              </div>
-              <span class="js-duration roboto-400"></span>
-            </div>
-            <div class="spacer"> </div>
-            <button class="js-fullscreen-button video-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
+  <div id="player" class="player-container">
+    <div class="js-video-container video-container-style"></div>
+    <div class="controls">
+      <button class="js-play-button video-button" aria-label="Play"><i class="fa fa-play" aria-hidden="true"></i></button>
+      <button class="js-pause-button video-button" aria-label="Pause"><i class="fa fa-pause" aria-hidden="true"></i></button>
+      <button class="js-volume-button video-button" aria-label="Volume"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
+      <button class="js-mute-button video-button" aria-label="Mute"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+      <div class="control-container">
+        <span class="js-current-time roboto-400"></span>
+        <div class="js-progress progress-style ">
+            <div class="js-progress-slider progress-slider-style"></div>
+            <span class="progress-dot"></span>
         </div>
+        <span class="js-duration roboto-400"></span>
+      </div>
+      <div class="spacer"> </div>
+      <button class="js-fullscreen-button video-button" aria-label="Fullscreen"><i class="fa fa-expand" aria-hidden="true"></i></button>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
